@@ -22,10 +22,47 @@ Each team member will provide their own perspective and approach to solve this c
 
 ## Instructions
 
-1. Go to your assigned folder
-2. Create a `SOLUTION.md` file
-3. Explain your approach to building the CampusDeliveryRobot project
-4. Include your perspective on how you would solve this challenge
+1. **Clone the repository** (see detailed guide below)
+2. Go to your assigned folder: `approach/your-name/`
+3. Create/edit your `SOLUTION.md` file
+4. Explain your approach to building the CampusDeliveryRobot project
+5. **Commit and push your changes** (see Git guide below)
+6. **Create a Pull Request** for review
+
+## 🚀 How to Get Started - Step by Step
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/Nextronix-Club/CampusDeliveryRobot.git
+cd CampusDeliveryRobot
+```
+
+### Step 2: Create Your Branch
+```bash
+git checkout -b your-name-solution
+# Example: git checkout -b jeevesh-solution
+```
+
+### Step 3: Make Your Changes
+- Navigate to your folder: `approach/your-name/`
+- Edit the `SOLUTION.md` file with your approach
+- Save your changes
+
+### Step 4: Commit and Push
+```bash
+git add .
+git commit -m "Add my solution approach for CampusDeliveryRobot"
+git push origin your-name-solution
+```
+
+### Step 5: Create Pull Request
+1. Go to https://github.com/Nextronix-Club/CampusDeliveryRobot
+2. Click "Compare & pull request" button
+3. Add title: "Solution by [Your Name]"
+4. Add description of your approach
+5. Click "Create pull request"
+
+📖 **For detailed instructions, see [GIT_GUIDE.md](GIT_GUIDE.md)**
 
 ## Project Requirements
 - Campus delivery robot with ESP32 CAM
